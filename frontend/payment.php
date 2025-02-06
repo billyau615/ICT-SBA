@@ -153,7 +153,7 @@ if (!isset($_SESSION['username'])) {
         </div>
 
         <div class="navigation-buttons">
-        <button type="button" onclick="window.location.href='passinfo.php'">Back to Passenger Information</button>
+        <button type="button" onclick="window.location.href='passinfo.php?orderid=<?php echo $orderid?>'">Back to Passenger Information</button>
             <button type="submit">Submit Order</button>
         </div>
     </div>

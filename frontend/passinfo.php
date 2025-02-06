@@ -189,7 +189,7 @@ if (!isset($_SESSION['username'])) {
         <input type="hidden" name="numofadult" value="<?php echo htmlspecialchars($numofadult);?>" />
         <input type="hidden" name="numofchild" value="<?php echo htmlspecialchars($numofchild);?>" />
             <div class="navigation-buttons">
-                <button type="button" onclick="window.location.href='reviewflights.php'">Back to Review Flights</button>
+                <button type="button" onclick="window.location.href='reviewflights.php?orderid=<?php echo $orderid?>'">Back to Review Flights</button>
                 <button type="submit">Next: Payments</button>
             </div>
         </form>
