@@ -1,0 +1,126 @@
+#container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#container h1 {
+    color: #ffcc00;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+#contact-options {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    width: 100%;
+}
+
+.contact-box {
+    flex: 1;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    text-align: left;
+    background-color: #00274d;
+    box-shadow: 0 4px 8px #0000004d;
+}
+
+.contact-box h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    color: #ffcc00;
+}
+
+.contact-box p {
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #f0f0f0;
+}
+
+.contact-box hr {
+    border: 1px solid #f0f0f0;
+    margin: 0;
+}
+
+.contact-box a {
+    color: #f0f0f0;
+}
+
+#intro {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 560;
+}
+#contactform-box {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #00274d;
+    height: 100%;
+    text-align: left;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px #0000004d;
+}
+#contactform-box hr {
+    border: 1px solid #f0f0f0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+#contactform-box h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    color: #ffcc00;
+}
+#contactform-box label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #f0f0f0;
+    font-size: 18px;
+}
+#contactform-container {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#contactform-box input[type="text"], #contactform-box input[type="email"], #contactform-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #dadedf;
+    color: #000000;
+    box-sizing: border-box;
+
+}
+#contactform-box button {
+    width: 200px;
+    padding: 12px;
+    background-color: #ffcc00;
+    color: #000913;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+#contactform-box button:hover {
+    background-color: #e6b800;
+}
+#contactform-box p {
+    text-align: left;
+    color: #f0f0f0;
+    font-weight: 600;
+    font-size: 18px;
+}   

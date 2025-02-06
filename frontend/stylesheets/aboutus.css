@@ -1,0 +1,23 @@
+#aboutus{
+    color: white;
+    width: 70%;
+    margin: auto;
+}
+#aboutus h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+#aboutus img {
+    width: 60%;
+    border-radius: 16px;
+    margin: 0 auto;
+    display: block;
+    float: center;
+}
+#aboutus p {
+    font-size: 20px;
+}
+#aboutus ul {
+    font-size: 20px;
+}

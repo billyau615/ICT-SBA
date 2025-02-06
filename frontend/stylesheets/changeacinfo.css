@@ -1,0 +1,84 @@
+#signup-area {
+    border-radius: 10px;
+    max-width: 550px;
+    background-color: #00274d;
+    padding: 30px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px #0000004d;
+}   
+#signup-area h2 {
+    text-align: center;
+    color: #ffcc00;
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+#signup-area label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #f0f0f0;
+}
+#signup-area input[type="text"],
+#signup-area input[type="email"],
+#signup-area input[type="tel"],
+#signup-area input[type="date"],
+#signup-area input[type="password"]{
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #dadedf;
+    color: #333333;
+    font-size: 16px;
+}
+#signup-area select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #dadedf;
+    color: #333333;
+    font-size: 16px;
+}
+.phone-input {
+    display: flex;
+    gap: 10px;
+}
+.phone-input select {
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #afafaf;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.phone-input input {
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #afafaf;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+#signup-area button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffcc00;
+    color: #000913;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#signup-area button:hover {
+    background-color: #e6b800;
+}
+#signup-area button:disabled {
+    background-color: #b3b3b3;
+    cursor: not-allowed;
+}

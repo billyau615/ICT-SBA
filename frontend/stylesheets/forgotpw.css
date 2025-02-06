@@ -1,0 +1,77 @@
+#forgotpw-area {
+    border-radius: 10px;
+    max-width: 450px;
+    background-color: #00274d;
+    padding: 30px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px #0000004d;
+}
+
+
+#forgotpw-area h2 {
+    text-align: center;
+    color: #ffcc00;
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+#forgotpw-area h3 {
+    text-align: center;
+    color: #f0f0f0;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#forgotpw-area label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #f0f0f0;
+}
+
+#forgotpw-email {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #dadedf;
+    color: #333333;
+    font-size: 16px;
+}
+
+#forgotpw-area button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffcc00;
+    color: #003366;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#requestbtn:hover {
+    background-color: #e6b800;
+}
+#resetbtn:hover {
+    background-color: #e6b800;
+}
+#resetbtn:disabled {
+    background-color: #b3b3b3;
+    cursor: not-allowed;
+}
+.pw {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #dadedf;
+    color: #333333;
+    font-size: 16px;
+}

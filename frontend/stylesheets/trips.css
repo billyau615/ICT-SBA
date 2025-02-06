@@ -1,0 +1,57 @@
+#my-trips {
+    padding: 30px;
+    background-color: #00274d;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px #0000004d;
+    color: #f0f0f0;
+}
+#my-trips h2 {
+    text-align: center;
+    color: #ffc107;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.trip-info {
+    margin-top: 20px;
+}
+#flight-section {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #004080;
+    border-radius: 8px;
+    border-left: 4px solid #007bff;
+}
+#flight-section p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #f0f0f0;
+}
+#support-message {
+    text-align: center;
+    margin-top: 20px;
+}
+#support-message p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#support-message button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+#support-message button:hover {
+    background-color: #0056b3;
+}
